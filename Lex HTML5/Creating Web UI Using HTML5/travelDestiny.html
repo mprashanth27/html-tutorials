@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Travel Destiny</title></head>
+    <body>
+        <center>
+        <h1>Destiny Tour and Travels</h1><br />
+        <h2>You chose us! We never let you down!!</h2>
+        <form>
+            <table border="2">
+                <tr>
+                    <td colspan="2" align="center"><b>Personal data</b></td>
+                </tr>
+                <tr>
+                    <td>Name</td>
+                    <td><input type = "text" name = "name" /></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="password" name="password"/></td>
+                </tr>
+                <tr>
+                    <td>Email ID</td>
+                    <td><input type = "text" name = "email" /></td>
+                </tr>
+                <tr>
+                    <td>Email Alert</td>
+                    <td align="center"><input type = "checkbox" name = "emailalert" /></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input type = "radio" name = "gender" value="Male"> Male
+                        <input type = "radio" name = "gender" value="Female"> Female
+                        <input type = "radio" name = "gender" value="Others"> Others
+                   </td>
+                </tr>
+                <tr>
+                    <td>Date of Birth </td>
+                    <td><input type="date" formtarget="mm/dd/yyyy"></td>
+                </tr>
+                <tr>
+                    <td>Places</td>
+                    <td>
+                        <select name="Placesdropdown">
+                        <option value="default" selected>--select--</option>
+                        <option value="Tokyo">Tokyo</option>
+                    </select> <a href="F:\Prashanth disk(f)\VS Code projects\Html\Lex html course practice\Lex HTML5\exercise1_dine_booking.html" target="_blank"><u>Place details</u></a></td>
+                </tr>
+                <tr>
+                    <td>Special Requirement</td>
+                    <td><textarea name="special_req" cols="5" rows="2"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"><form><input type="submit" name="submit" value="submit" /></form></td>
+                </tr>
+            </table>  
+        </form>
+        <!--The above way is mpre efficient
+        <table border="2">
+            <tr>
+                <td colspan="2" align="center"><b>Personal data</b></td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td><form ><input type = "text" name = "name" /></form></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><form><input type="password" name="password"/></form></td>
+            </tr>
+            <tr>
+                <td>Email ID</td>
+                <td><form><input type = "text" name = "email" /></form></td>
+            </tr>
+            <tr>
+                <td>Email Alert</td>
+                <td align="center"><form><input type = "checkbox" name = "emailalert" /></form></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td><form> 
+                    <input type = "radio" name = "gender" value="Male"> Male
+                    <input type = "radio" name = "gender" value="Female"> Female
+                    <input type = "radio" name = "gender" value="Others"> Others
+                </form></td>
+            </tr>
+            <tr>
+                <td>Date of Birth </td>
+                <td><form><input type="date" formtarget="mm/dd/yyyy"></form></td>
+            </tr>
+            <tr>
+                <td>Places</td>
+                <td><form>
+                    <select name="Placesdropdown">
+                    <option value="default" selected>--select--</option>
+                    <option value="Tokyo">Tokyo</option>
+                </select> <a href="https://www.google.com/maps" target="_blank"><u>Place details</u></a></form></td>
+            </tr>
+            <tr>
+                <td>Special Requirement</td>
+                <td><form><textarea name="special_req" cols="5" rows="2"></textarea></form></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><form><input type="submit" name="submit" value="submit" /></form></td>
+            </tr>
+        </table>
+        -->
+        </center>
+    </body>
+</html>
